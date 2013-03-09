@@ -32,7 +32,6 @@ var app = {
     route: function() {
         var self = this,
             hash = window.location.hash;
-        var hash = window.location.hash;
         if (!hash) {
             if (this.homePage) {
                 this.slidePage(this.homePage);
